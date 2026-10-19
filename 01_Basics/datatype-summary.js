@@ -39,3 +39,32 @@ let userEmail2=undefined
 const anotherId=Symbol('123')
 console.log(id===anotherId); */
 
+
+
+//++++++++++++++++++++++++++++//
+//Stack(Primitive).......Heap(Non-Primitive).
+//stack:transfer copy to variable
+//heap:transfer refrence of the variable
+let myYoutubename="khushbooydotcom"
+
+let anothername="myYoutubename"
+anothername="khushydotcom"
+
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne={
+ email:"kc312@gmail.com",
+ upi:"user@ybl"
+}
+
+
+let userTwo=userOne
+
+userTwo.email="kc314@gmail.com"
+
+console.log(userOne)
+console.log(userTwo);
+
